@@ -1,7 +1,7 @@
-import tInput from "./index.vue"
+import mInput from './index.vue';
 
-tInput.install=app=>{
-     app.component(tInput.name,tInput);
-}
+mInput.install = (app) => {
+  app.component(mInput.name, mInput);
+};
 
-export default tInput
+export default mInput;

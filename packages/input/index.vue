@@ -3,7 +3,7 @@
     <input type="text" :value="modelValue" @input="input" />
   </div>
 </template>
-<script setup name="tInput">
+<script setup name="mInput">
 //
 
 const props = defineProps({

@@ -1,13 +1,13 @@
 {
-  "name": "base-dmui",
+  "name": "big-dream",
   "private": false,
-  "version": "0.0.2",
-  "main": "./dist/base-dmui.umd.js",
-  "module": "./dist/base-dmui.es",
+  "version": "0.0.1",
+  "main": "./dist/big-dream.umd.js",
+  "module": "./dist/big-dream.es",
   "exports": {
     ".": {
-      "import": "./dist/base-dmui.es",
-      "require": "./dist/base-dmui.umd.js"
+      "import": "./dist/big-dream.es",
+      "require": "./dist/big-dream.umd.js"
     }
   },
   "files": [

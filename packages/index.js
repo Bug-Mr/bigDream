@@ -1,13 +1,13 @@
-import tButton from './button';
-import tInput from './input';
+import mButton from './button';
+import mInput from './input';
 
 const install = (app) => {
-  app.use(tButton);
-  app.use(tInput);
+  app.use(mButton);
+  app.use(mInput);
 };
-const baseDmui = {
+const bigDream = {
   install,
 };
-export { tButton, tInput };
+export { mButton, mInput };
 
-export default baseDmui;
+export default bigDream;

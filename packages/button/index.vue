@@ -3,8 +3,8 @@
     <button><slot></slot></button>
   </div>
 </template>
-<script setup name="tButton">
-import { computed } from "@vue/runtime-core";
+<script setup name="mButton">
+import { computed } from "vue";
 
 // name script不能为空
 const props = defineProps({
@@ -14,7 +14,7 @@ const props = defineProps({
   },
 });
 const tClass = computed(() => {
-  return ["t-button", props.type == "" ? "" : `t-button-${props.type}`];
+  return ["m-button", props.type == "" ? "" : `m-button-${props.type}`];
 });
 </script>
 <style lang="scss" scoped>
@@ -24,7 +24,7 @@ button {
   background: none;
   cursor: pointer;
 }
-.t-button {
+.m-button {
   button {
     padding: 12px 24px;
     border-radius: 4px;
@@ -35,17 +35,17 @@ button {
     }
   }
 }
-.t-button-default {
+.m-button-default {
   button {
     background: #b4b0b0;
   }
 }
-.t-button-success {
+.m-button-success {
   button {
     background: #0eac77;
   }
 }
-.t-button-warning {
+.m-button-warning {
   button {
     background: #ecb500;
   }

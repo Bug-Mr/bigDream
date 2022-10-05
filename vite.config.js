@@ -10,7 +10,7 @@ export default defineConfig({
     // 打包配置
     lib: {
       entry: "./packages/index.js",
-      name: "base-dmui",
+      name: "big-dream",
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖,解决插件报错问题(reading 'isCE')

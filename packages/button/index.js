@@ -1,7 +1,7 @@
-import tButton from "./index.vue"
+import mButton from './index.vue';
 
-tButton.install=app=>{
-     app.component(tButton.name,tButton);
-}
+mButton.install = (app) => {
+  app.component(mButton.name, mButton);
+};
 
-export default tButton
+export default mButton;
