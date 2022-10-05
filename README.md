@@ -9,6 +9,6 @@ import bigDream from 'big-dream';
 app.use(bigDream)
 
 # 在页面中使用
-<template>
-     <m-button type="success">按钮</m-button>
-</template>
+    <template>
+         <m-button type="success">按钮</m-button>
+    </template>
